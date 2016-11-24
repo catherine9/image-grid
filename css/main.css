@@ -14,20 +14,30 @@ html {
 }
 
 img {
-  float: left;
-  width: 50%;
+  width: 100%;
   margin: 0;
 }
 
-  @media only screen and (min-width: 20em) {
+img:nth-child(1){
+  display: block;
+}
 
-  img:nth-child(even){
-    display: none;
-  }
+img:nth-child(2){
+  display: none;
+}
+
+img:nth-child(5){
+  display: none;
+}
+
+  @media only screen and (min-width: 25em) {
 
   }
 
   @media only screen and (min-width: 38em) {
 
-  img
+  }
+
+  @media only screen and (min-width: 60em) {
+
   }
